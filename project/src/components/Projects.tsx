@@ -18,7 +18,7 @@ export default function Projects() {
       description:
         'A responsive React Todo app with local storage access, real-time editing, and smooth UI powered by TailwindCSS.',
       image: '/todo-ui.png',
-      tags: ['React.js', 'JavaScript','TailwindCSS'],
+      tags: ['React.js', 'JavaScript', 'TailwindCSS'],
       github: 'https://github.com/Ayush-Shukla333/iTask-Todo-App-.git',
       // demo: '#',
     },
@@ -60,12 +60,18 @@ export default function Projects() {
               MY WORK
             </span> */}
           </motion.div>
-          <h2 className="text-5xl sm:text-6xl font-bold text-white mb-4 hover:underline underline-offset-4 decoration-purple-500/30 ">
+          <h2 className="
+  font-bold text-white mb-4
+  text-4xl sm:text-6xl
+  whitespace-nowrap
+  hover:underline underline-offset-4 decoration-purple-500/30
+">
             Featured{' '}
             <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent">
               Projects
             </span>
           </h2>
+
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
             A collection of projects showcasing my skills and creativity
           </p>
@@ -84,7 +90,7 @@ export default function Projects() {
             >
               {/* Gradient border effect on hover */}
               <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl opacity-0 group-hover:opacity-100 blur transition duration-500" />
-              
+
               {/* Card Content */}
               <div className="relative bg-[#0a0e27] backdrop-blur-lg rounded-xl overflow-hidden border border-white/10 hover:border-white/20 transition-all duration-300 flex flex-col h-full">
                 {/* Image Section - Reduced Height */}
@@ -102,7 +108,7 @@ export default function Projects() {
                   <h3 className="text-xl font-bold text-white mb-2 group-hover:text-purple-400 transition-colors">
                     {project.title}
                   </h3>
-                  
+
                   {/* Full Description - No line clamp */}
                   <p className="text-gray-400 text-sm mb-4 leading-relaxed">
                     {project.description}

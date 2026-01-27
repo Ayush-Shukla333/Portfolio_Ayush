@@ -93,7 +93,7 @@ export default function TechStack() {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          <h2 className="text-5xl sm:text-6xl font-bold text-white mb-4 hover:underline underline-offset-4 decoration-purple-500/30 ">
+          <h2 className="text-4xl sm:text-6xl font-bold text-white mb-4 hover:underline underline-offset-4 decoration-purple-500/30 ">
             My Tech Stack
           </h2>
           <p className="text-gray-400 text-lg">

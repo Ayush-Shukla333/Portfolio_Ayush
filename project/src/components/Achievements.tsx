@@ -41,7 +41,7 @@ export default function Achievements() {
           {/* <p className="text-pink-400 text-sm font-semibold tracking-wider uppercase mb-2">
             MILESTONES
           </p> */}
-          <h2 className="text-5xl sm:text-6xl font-bold text-white mb-4 hover:underline underline-offset-4 decoration-pink-500/30 ">
+          <h2 className="text-4xl sm:text-6xl font-bold text-white mb-4 hover:underline underline-offset-4 decoration-pink-500/30 ">
             My Achievements
           </h2>
           <p className="text-gray-400 text-lg">

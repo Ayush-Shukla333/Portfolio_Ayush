@@ -45,10 +45,13 @@ export default function Contact() {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          <h2 className="text-5xl sm:text-6xl font-bold bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent mb-3 flex items-center justify-center gap-7">
-            Get In Touch
-            <FaHandshake className="text-purple-400 text-6xl mt-3" />
+          <h2 className="font-bold bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent mb-3 flex items-center justify-center gap-3 text-4xl sm:text-6xl whitespace-nowrap">
+
+            <span>Get In Touch</span>
+            <FaHandshake className="text-purple-400 text-4xl sm:text-6xl" />
           </h2>
+
+
           <p className="text-gray-400 text-md sm:text-lg">
             Always open to discussing new projects, creative ideas, or
             opportunities to be part of your vision.
