@@ -17,13 +17,13 @@ export default function Achievements() {
     {
       title: 'Hackathons',
       description:
-        'Got in the top 10% in AlgoUtsav (NIT Rourkela) and Flipkart GRID improving algorithm efficiency and problem-solving skills.',
+        'Ranked in the top 10% in AlgoUtsav (NIT Rourkela) and Flipkart GRID improving algorithm efficiency and problem-solving skills.',
       emoji: '🥇',
     },
     {
       title: 'Data Structures & Algorithms',
       description:
-        'Solved a comprehensive set of 250+ problems on LeetCode and GeeksforGeeks to enhance coding proficiency.',
+        'Solved a comprehensive set of 300+ problems on LeetCode and GeeksforGeeks to enhance coding proficiency.',
       emoji: '💻',
     },
   ];

@@ -11,7 +11,7 @@ export default function Projects() {
       image: '/Hirehub.png',
       tags: ['React', 'Node.js', 'Express.js', 'MongoDB', 'ClerkJWT', 'Sentry', 'NLP', 'scikit-learn'],
       github: 'https://github.com/Ayush-Shukla333/HireHub--Job_Findease.git',
-      // demo: '#',
+      demo: 'https://hirehubjobfindease-server.vercel.app/',
     },
     {
       title: 'iTask - Todo App',
@@ -30,6 +30,14 @@ export default function Projects() {
       tags: ['HTML', 'CSS', 'JavaScript'],
       github: 'https://pratyaksh15.github.io/ShieldNature/',
       demo: 'https://pratyaksh15.github.io/ShieldNature/',
+    },
+    {
+      title: 'QuickStore - Product Listing',
+      description: 'Responsive product listing app built with React (Vite) using Fake Store API. Built with ',
+      image: '/quickstore.png',
+      tags: ['ReactJS', 'TailwindCSS', 'Axios', 'JavaScript'],
+      github: 'https://github.com/Ayush-Shukla333/QuickStore-product-listing.git',
+      demo: 'https://quickstore-green.vercel.app/',
     },
   ];
 
