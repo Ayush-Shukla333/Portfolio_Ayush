@@ -33,12 +33,20 @@ export default function Projects() {
     },
     {
       title: 'QuickStore - Product Listing',
-      description: 'Responsive product listing app built with React (Vite) using Fake Store API. Built with ',
+      description: 'Responsive product listing app built with React (Vite) using Fake Store API. Features search, category filtering, and product details with React Router.',
       image: '/quickstore.png',
       tags: ['ReactJS', 'TailwindCSS', 'Axios', 'JavaScript'],
       github: 'https://github.com/Ayush-Shukla333/QuickStore-product-listing.git',
       demo: 'https://quickstore-green.vercel.app/',
     },
+    // {
+    //   title: 'CodeMeet - Technical Interview Platform',
+    //   description: 'A platform for conducting technical interviews with real-time code editing and collaboration features.',
+    //   image: '/codemeet.png',
+    //   tags: ['ReactJS', 'Node.js', 'WebSocket', 'TailwindCSS'],
+    //   github: 'https://github.com/Ayush-Shukla333/CodeMeet-Technical-Interview-Platform.git',
+    //   demo: 'https://codemeet.vercel.app/',
+    // },
   ];
 
   return (

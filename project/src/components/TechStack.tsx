@@ -20,6 +20,9 @@ import {
   SiVercel,
   SiNetlify,
   SiRender,
+  SiMui,
+  SiJsonwebtokens,
+  SiInsomnia, // Common icon for REST APIs
 } from 'react-icons/si';
 import { FaBrain } from 'react-icons/fa';
 import { TbSql } from 'react-icons/tb';
@@ -42,7 +45,8 @@ export default function TechStack() {
         { name: 'HTML', icon: SiHtml5, color: 'text-orange-500' },
         { name: 'CSS', icon: SiCss3, color: 'text-blue-500' },
         { name: 'Tailwind CSS', icon: SiTailwindcss, color: 'text-cyan-400' },
-        { name: 'React', icon: SiReact, color: 'text-cyan-400' },
+        { name: 'Material UI', icon: SiMui, color: 'text-blue-400' },
+        { name: 'React.js', icon: SiReact, color: 'text-cyan-400' },
         { name: 'Redux', icon: SiRedux, color: 'text-purple-500' },
         { name: 'Next.js', icon: SiNextdotjs, color: 'text-white' },
       ],
@@ -52,6 +56,8 @@ export default function TechStack() {
       technologies: [
         { name: 'Node.js', icon: SiNodedotjs, color: 'text-green-500' },
         { name: 'Express.js', icon: SiExpress, color: 'text-gray-400' },
+        { name: 'REST APIs', icon: SiInsomnia, color: 'text-purple-400' },
+        { name: 'JWT', icon: SiJsonwebtokens, color: 'text-pink-500' },
       ],
     },
     {
