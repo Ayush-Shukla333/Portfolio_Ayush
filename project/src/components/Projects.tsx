@@ -11,7 +11,7 @@ export default function Projects() {
       image: '/Hirehub.png',
       tags: ['React', 'Node.js', 'Express.js', 'MongoDB', 'ClerkJWT', 'Sentry', 'NLP', 'scikit-learn'],
       github: 'https://github.com/Ayush-Shukla333/HireHub--Job_Findease.git',
-      demo: 'https://hirehubjobfindease-server.vercel.app/',
+      demo: 'https://hirehub-job-findease.vercel.app/',
     },
     {
       title: 'iTask - Todo App',
@@ -39,14 +39,14 @@ export default function Projects() {
       github: 'https://github.com/Ayush-Shukla333/QuickStore-product-listing.git',
       demo: 'https://quickstore-green.vercel.app/',
     },
-    // {
-    //   title: 'CodeMeet - Technical Interview Platform',
-    //   description: 'A platform for conducting technical interviews with real-time code editing and collaboration features.',
-    //   image: '/codemeet.png',
-    //   tags: ['ReactJS', 'Node.js', 'WebSocket', 'TailwindCSS'],
-    //   github: 'https://github.com/Ayush-Shukla333/CodeMeet-Technical-Interview-Platform.git',
-    //   demo: 'https://codemeet.vercel.app/',
-    // },
+    {
+      title: 'CodeMeet - Technical Interview Platform',
+      description: 'A platform for conducting technical interviews with real-time code editing and collaboration features including video conferencing and chat.',
+      image: '/codemeet.png',
+      tags: ['ReactJS', 'Node.js', 'Express.js', 'MongoDB', 'Stream.io', 'Piston API', 'TailwindCSS'],
+      github: 'https://github.com/Ayush-Shukla333/CodeMeet-Technical-Interview-Platform.git',
+      demo: 'https://codemeet-technical-interview-platform.onrender.com/',
+    },
   ];
 
   return (
